@@ -1,0 +1,554 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/RendarSRN/Project-Alura---Iniciate/blob/main/Project%20Alura%20-%20Iniciate\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "i = 5\n",
+        "type(i)"
+      ],
+      "metadata": {
+        "id": "83ZXwY_5VaG6",
+        "outputId": "6a2239cd-74a7-4d98-e0d0-ce6c37534850",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "int"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 2
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "f = 9.8\n",
+        "type(f)"
+      ],
+      "metadata": {
+        "id": "ph-m4bV9VtUZ",
+        "outputId": "89222418-52e9-48c6-ad01-1407e78b9989",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "float"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "s = 'Mateus'\n",
+        "type(s)"
+      ],
+      "metadata": {
+        "id": "rZBGKqRmVxOw",
+        "outputId": "78118314-06a2-4f85-905f-7804e202a5f8",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "str"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 4
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "b = True\n",
+        "type(b)"
+      ],
+      "metadata": {
+        "id": "Ah5sQwI8V1yo",
+        "outputId": "996d09dc-6a56-4215-e43c-1cde851637e7",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "bool"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 5
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nome_aluno = 'Mateus'\n",
+        "idade_aluno = 28\n",
+        "media_aluno = 9.3\n",
+        "situacao_aprovado = True\n",
+        "print(nome_aluno,idade_aluno,media_aluno,situacao_aprovado)"
+      ],
+      "metadata": {
+        "id": "XduXenXcV6qf",
+        "outputId": "2b95eef5-912b-4748-fc5d-4975d14f5439",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Mateus 28 9.3 True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "q_seguranca = 5\n",
+        "s_seguranca = 3000\n",
+        "\n",
+        "q_docente = 16\n",
+        "s_docente = 6000\n",
+        "\n",
+        "q_diretoria = 1\n",
+        "s_diretoria = 12500"
+      ],
+      "metadata": {
+        "id": "1V7t7NWqWq-N"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "total_empregados = q_seguranca + q_docente + q_diretoria\n",
+        "total_empregados"
+      ],
+      "metadata": {
+        "id": "k1VCt83feLVz",
+        "outputId": "8a44a388-d8b4-497f-93c8-8440ebb4aa0e",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "22"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 9
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "diferenca_salario = s_diretoria - s_seguranca\n",
+        "diferenca_salario"
+      ],
+      "metadata": {
+        "id": "ld_MJX0XeWWq",
+        "outputId": "66a60fc1-ad7f-4b8f-cca5-7110b06f5464",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "9500"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 10
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "media = (q_seguranca*s_seguranca + q_docente*s_docente + q_diretoria*s_diretoria) / (total_empregados)\n",
+        "media"
+      ],
+      "metadata": {
+        "id": "u4CtzBq8epXR",
+        "outputId": "a6e8156c-f49e-4351-ceb2-6daf4f2bb198",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "5613.636363636364"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 11
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "s1 = 'Projeto Alura'\n",
+        "s2 = \"Projeto Alura\"\n",
+        "print(type(s1),type(s2))"
+      ],
+      "metadata": {
+        "id": "l_hZ8X6afOvn",
+        "outputId": "5fcbe448-aa85-4ba9-dd9c-bef5753cda95",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'str'> <class 'str'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "texto.upper()"
+      ],
+      "metadata": {
+        "id": "Q3VmWrRzvDFI",
+        "outputId": "3483ca83-0d43-4f1b-8e4d-28733f2eb12d",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 141
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "NameError",
+          "evalue": "name 'texto' is not defined",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipykernel_2073/1144775296.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mtexto\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mupper\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m: name 'texto' is not defined"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "texto = 'MATEUS RITTO TENCHINI'"
+      ],
+      "metadata": {
+        "id": "CO_Ixr090uRs"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "texto.upper()"
+      ],
+      "metadata": {
+        "id": "IzihZdsj01Ic",
+        "outputId": "481fb812-7ce5-4184-b009-265c151ccd31",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'MATEUS RITTO TENCHINI'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 16
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "texto.lower()"
+      ],
+      "metadata": {
+        "id": "zf9RO0tl04gr",
+        "outputId": "75063130-940a-483f-c4f7-83d5949fe099",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'mateus ritto tenchini'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 17
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "texto.strip()"
+      ],
+      "metadata": {
+        "id": "WKqWV48b07YL",
+        "outputId": "7ed0600c-f3ee-41d9-e7db-d604627408be",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'MATEUS RITTO TENCHINI'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 18
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "texto.replace()"
+      ],
+      "metadata": {
+        "id": "sxtUspQy0_rb",
+        "outputId": "a27af6ec-cecd-402b-a823-175fae5189ae",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 141
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "TypeError",
+          "evalue": "replace expected at least 2 arguments, got 0",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipykernel_2073/654055914.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mtexto\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mreplace\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;31mTypeError\u001b[0m: replace expected at least 2 arguments, got 0"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "texto.replace('I','Y')"
+      ],
+      "metadata": {
+        "id": "ba9xHr7j1GrK",
+        "outputId": "06cdbfb0-98ae-469d-ae7b-bcfc1da36159",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'MATEUS RYTTO TENCHYNY'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 20
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "texto"
+      ],
+      "metadata": {
+        "id": "w5TlIHr_1Syq",
+        "outputId": "9d2fac3b-8e95-40fd-8bd7-763a5360f665",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'MATEUS RITTO TENCHINI'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 21
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "texto = texto.strip().replace('I','Y').upper()"
+      ],
+      "metadata": {
+        "id": "bCgPg6C41ZTJ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "texto = texto.strip().replace('I','Y').upper()\n",
+        "texto"
+      ],
+      "metadata": {
+        "id": "hiz-XDNR1zFI",
+        "outputId": "98d170fb-8795-4f9d-b97c-9e6a37c2d2ea",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'MATEUS RYTTO TENCHYNY'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 23
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "KKZoBSeZ109o"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
